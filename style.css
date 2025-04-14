@@ -64,6 +64,17 @@ nav a {
   transition: color 0.3s ease;
 }
 
+nav a:hover,
+nav a:focus {
+  color: #8BC7F9;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 3px solid #0056b3; 
+  outline-offset: 2px;
+}
+
 main {
   padding-top: 20px;
   padding-bottom: 40px;
