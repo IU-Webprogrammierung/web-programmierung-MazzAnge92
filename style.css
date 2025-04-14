@@ -40,8 +40,8 @@ header {
 }
 
 main {
-    padding: 20px;
-    text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 section {
   background-color: #fff;
