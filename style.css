@@ -39,6 +39,22 @@ header {
   text-align: center;
 }
 
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0.8em;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  padding: 0.3em 0;
+  transition: color 0.3s ease;
+}
+
 main {
   padding-top: 20px;
   padding-bottom: 40px;
