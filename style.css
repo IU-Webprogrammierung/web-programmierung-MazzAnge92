@@ -109,13 +109,14 @@ footer p {
 }
 
 #projects ul {
-    padding-left: 25px; 
+  list-style-position: inside;
+  padding-left: 0;
+  display: inline-block;
+  text-align: left;
 }
 
 #projects li {
-    list-style-position: inside; 
-    padding-left: 0; 
-    margin-left: 0; 
+  margin-bottom: 0.8em;
 }
 
 #about p {
