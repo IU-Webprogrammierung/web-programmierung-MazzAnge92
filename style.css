@@ -218,3 +218,32 @@ footer p {
 .social-links a:hover {
     color: #45a049; 
 } 
+
+#lebenslauf h3,
+#lebenslauf .cv-item,
+#lebenslauf .cv-item h4,
+#lebenslauf .cv-item p {
+  text-align: left;
+}
+
+#lebenslauf .cv-item {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+  border-left: 3px solid #dddddd;
+}
+
+#lebenslauf .cv-item h4 {
+  font-size: 1.1em;
+  margin-bottom: 0.3em;
+}
+
+#lebenslauf .cv-item p {
+  margin-bottom: 0.4em;
+  font-size: 1em;
+}
+
+#lebenslauf .cv-item p em {
+  color: #555;
+  font-size: 0.9em;
+}
