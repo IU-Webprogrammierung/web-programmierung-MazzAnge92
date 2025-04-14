@@ -104,8 +104,10 @@ footer p {
     margin-top: 20px;
 }
 
-.social-links {
-    margin-top: 10px;
+.social-links a {
+  color: #eee;
+  margin: 0 0.7em;
+  transition: color 0.3s ease;
 }
 
 #projects ul {
